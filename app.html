@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="author" content="Softnio">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<!-- Fav Icon  -->
+	<link rel="shortcut icon" href="app/images/favicon.png">
+	<!-- Site Title  -->
+	<title>MY HEMP</title>
+	<link rel="canonical" href="https://myhemp.io/app.html" />
+	<!-- Bundle and Base CSS -->
+	<link rel="stylesheet" href="app/assets/css/vendor.bundle_ver-161.css">
+	<link rel="stylesheet" href="app/assets/css/style_ver-161.css">
+	<!-- Color Scheme CSS -->
+	<link rel="stylesheet" href="app/assets/css/theme_ver-161.css" id="theming">
+</head>
+<body class="nk-body body-wider theme-light mode-onepage">
+	<div class="nk-wrap">
+		<header class="nk-header page-header is-transparent is-sticky is-shrink is-light" id="header">
+		    <!-- Header @s -->
+			<div class="header-main">
+				<div class="header-container container">
+					<div class="header-wrap">
+						<!-- Logo @s -->
+						<div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
+							<a href="index.html" class="logo-link">
+								<img class="logo-dark" src="app/images/logo.png" srcset="app/images/logo2x.png 2x" alt="logo">
+								<img class="logo-light" src="app/images/logo.png" srcset="app/images/logo2x.png 2x" alt="logo">
+							</a>
+						</div>
+						<!-- Menu Toogle @s -->
+						<div class="header-nav-toggle">
+							<a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+						</div>
+						<!-- Menu @s -->
+						<div class="header-navbar animated" data-animate="fadeInDown" data-delay=".75">
+							<nav class="header-menu" id="header-menu">
+								<ul class="menu-btns">
+									<li><button class="btn btn-md btn-auto btn-grad" id="connectButton"><span>Connect</span></button></li>
+								</ul>
+							</nav>
+						</div><!-- .header-navbar @e -->
+					</div>                                                
+				</div>
+			</div><!-- .header-main @e -->
+			<!-- Banner @s -->
+			<div class="">
+				<div class="nk-banner">
+				    <div class="banner banner-fs banner-single banner-gap-b2">
+				        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row gutter-vr-30px align-items-center justify-content-center">
+                                    <div class="col-lg-7 col-sm-10 text-center text-lg-left">
+                                        <div class="banner-caption cpn tc-light mt-3 mt-lg-0">
+                                            <div class="cpn-head">
+                                                <h1 class="title animated" data-animate="fadeInUp" data-delay="1.2" style="color: #83C392">World's first Hemp and Marijuana<br class="d-none d-md-block">  End-2-End Ecosystem</h1>
+                                            </div> 
+                                            <div class="cpn-text">
+                                                <p class="animated" data-animate="fadeInUp" data-delay="1.3" style="color:gray;">MYHEMP Decentralised Blockchain Ecosystem For The Global. Hemp and Marijuana industry has initiated its crowdsale first to market HEMP token. Exclusive early bird pricing for first 20,000,000 HEMP Tokens. Hemp Tokens Expected to SELL OUT Fast, Buy Now To Avoid Disappointment.</p>
+                                                <a href="https://bscscan.com/token/0xF9d10E434488162758b67853bAfF7CD872adaF1B"  class="btn btn-grad">
+                                                <img src="static/img/bsc.svg" alt="HEMP" style="padding-right: 10px; max-width: 35px;" />
+                                                    <span>
+                                                      <strong>HEMP Contract</strong>
+                                                    </span>
+                                                  </a>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-lg-5">
+                                        <div class="token-status round bg-theme mb-5 mb-lg-0 animated" data-animate="fadeInUp" data-delay="1.4" style="background-color: white;">
+                                            <h4 class="title title-md" style="color: #83C392">HEMP Token Sale</h4>
+                                            <p>1 BNB = 1,850 HEMP</p>
+                                            <label for="inputFrom" style="color: #83C392"><strong>From</strong></label>
+                                            <div class="input-group mb-2 mr-sm-2">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text"><a class="mr-2">BNB</a><img alt="nologo" class="ant-image-img" src="app/images/binance_logo.png" width="25" /></div>
+                                                </div>
+                                                <input type="number" class="form-control" id="inputFrom" placeholder="0.00" onkeyup="updateInput()">
+                                            </div>
+                                            <label for="inputTo" style="color: #83C392"><strong>To</strong></label>
+                                            <div class="input-group mb-2 mr-sm-2">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text"><a class="mr-2">HEMP</a><img alt="nologo" class="ant-image-img" src="app/images/favicon.png" width="25" /></div>
+                                                </div>
+                                                <input type="number" class="form-control" id="inputTo" placeholder="0.00" readonly>
+                                            </div>
+                                            <!-- <div class="token-countdown countdown" data-date="2019/08/03"></div>
+                                            <div class="progress-wrap progress-wrap-point">
+                                                <span class="progress-info">Raised so far <span>$1,830,985</span></span>
+                                                <div class="progress-bar">
+                                                    <div class="progress-percent bg-grad" data-percent="30"></div>
+                                                    <div class="progress-point progress-point-1">Soft Cap <span>$1.75m</span></div>
+                                                    <div class="progress-point progress-point-2">Hard Cap <span>$4.75m</span></div>
+                                                </div>
+                                            </div> -->
+                                            <button id="buyButton" class="btn btn-grad" disabled>Buy Token Now</button>
+                                            <p class="token-min" id="err"></p>
+                                        </div>
+                                    </div><!-- .col -->
+                                </div><!-- .row -->
+                            </div>
+                        </div>
+				    </div>
+				</div><!-- .nk-banner -->
+			</div>
+			<!-- .header-banner @e -->
+		</header>
+        <main class="nk-pages">    
+            <section class="section section-features" id="features">
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block nk-block-features-s2">
+                        <div class="row align-items-center flex-row-reverse">
+                            <div class="col-lg-5">
+                                <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay=".1">
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-lg-7">
+                                <!-- Section Head @s -->
+                                <div class="section-head">
+                                    <h2 class="title animated" data-animate="fadeInUp" data-delay=".2" style="color: #83C392">How to Buy HEMP</h2>
+                                </div><!-- .section-head @e -->
+                                <div class="features-list mr-4 mgb-m30">
+                                    <div class="feature feature-s2 animated" data-animate="fadeInUp" data-delay=".4">
+                                        <div class="feature-icon dot">
+                                            <img src="app/images/one.png">
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Create a Metamask Wallet using either desktop computer or mobile device. <a href="https://metamask.io/">https://metamask.io/.</a>Please ensure you have Binance Smart Chain enable on your metamask wallet. If not, see youtube video on <a href="https://www.youtube.com/watch?v=3wQp-B2h1fg">How to add BSC Network on your metamask</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="feature feature-s2 animated" data-animate="fadeInUp" data-delay=".5">
+                                        <div class="feature-icon dot">
+                                            <img src="app/images/two.png">
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Send BNB to your wallet. You can buy BNB on MetaMask directly, or through sites like <a href="https://www.coinbase.com/">Coinbase</a> or <a href="http://binance.com/">Binance </a> and then send them to your wallet.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature feature-s2 animated" data-animate="fadeInUp" data-delay=".6">
+                                        <div class="feature-icon dot">
+                                            <img src="app/images/three.png">
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Connect to <a href="app.html">MYHEMP App</a> and Buy HEMP. For extra safety, please double check you are sending BNB to the correct MYHEMP Crowdsale Address <a href="https://bscscan.com/address/0x13758c1f96c12ac1a8774cf8f84769a46abbe5d1">0x13758c1f96C12aC1a8774cF8F84769a46ABbe5D1</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+        </main>
+		<footer class="nk-footer" style="background-color : #F6F7F9;">
+			<section class="section section-footer section-l bg-transparent" >
+				<div class="container">
+				    <!-- Block @s -->
+					<div class="nk-block block-footer">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-4 mb-4 mb-sm-0">
+                                <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay=".4">
+                                    <h6 class="wgs-title">Follow Us</h6>
+                                    <div class="wgs-body">
+                                        <ul class="wgs-links">
+                                            <li><a href="https://twitter.com/my_hemp_io">Twitter</a></li>
+                                            <li><a href="https://t.me/myhemp1">Telegram</a></li>
+                                            <li><a href="https://www.reddit.com/r/myhemp">Reddit</a></li>
+                                            <li><a href="https://www.facebook.com/myhemp.io">Facebook</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-lg-6 mb-4 mb-lg-0 order-lg-first">
+                                <div class="wgs wgs-text animated" data-animate="fadeInUp" data-delay=".1">
+                                    <div class="wgs-body">
+                                        <a href="index.html" class="wgs-logo">
+                                            <img src="app/images/logo.png" srcset="app/images/logo2x.png 2x" alt="logo">
+                                        </a>
+                                        <p>Copyright © 2022 MYHEMP. <br>All rights reserved. </p>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+					</div><!-- .block @e -->
+				</div>
+			</section>
+			<div class="nk-ovm shape-b"></div>
+		</footer>
+	</div>
+	<div class="preloader"><span class="spinner spinner-round"></span></div>
+	<!-- JavaScript -->
+	<script src="app/assets/js/jquery.bundle_ver-161.js"></script>
+	<script src="app/assets/js/scripts_ver-161.js"></script>
+	<script src="app/assets/js/charts.js"></script>
+    <script src="npm/web3-latest/dist/web3.min.js"></script>
+    <script type="text/javascript">
+        var from = document.getElementById("inputFrom");
+        var to = document.getElementById("inputTo"); 
+        function updateInput(){
+            to.value = from.value * 1850;
+        }
+        // daiToken.methods.rate().call(function (err, res) {
+        //   if (err) {
+        //     console.log("An error occured", err)
+        //     return
+        // }
+        // console.log("The balance is: ", res)
+        // });
+        const receiverAddress = "0x729EA13065E065c7051062163295ea53CB0a9E5A";
+    </script>
+    <script type="module">
+        import { ethers } from "app/ethers-5.0.esm.min.js";
+          var v = document.getElementById("connectButton");
+          var buy = document.getElementById("buyButton");
+          let accounts = [];
+          const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
+            const hemp = {
+              address: "0x13758c1f96C12aC1a8774cF8F84769a46ABbe5D1",
+              abi: [{"inputs":[{"internalType":"uint256","name":"rate","type":"uint256"},{"internalType":"address payable","name":"wallet","type":"address"},{"internalType":"contract IERC20","name":"token","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"purchaser","type":"address"},{"indexed":true,"internalType":"address","name":"beneficiary","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"TokensPurchased","type":"event"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"constant":false,"inputs":[{"internalType":"address","name":"beneficiary","type":"address"}],"name":"buyTokens","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"rate","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"wallet","outputs":[{"internalType":"address payable","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"weiRaised","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}],
+            };
+          let currentAccount = null;
+          window.addEventListener("load", function() {
+              if (window.ethereum) {
+                // use MetaMask's provider
+                const signer = provider.getSigner(); // get permission to access accounts
+                getAccount();
+                getChainId();
+                // detect Metamask account change
+                window.ethereum.on('accountsChanged', handleAccountsChanged);
+                // detect Network account change
+                window.ethereum.on('chainChanged', handleChainChanged);
+              } else {
+                window.alert("MetaMask is Not installed!");
+                console.warn(
+                  "No web3 detected. Falling back to http://127.0.0.1:8545. You should remove this fallback when you deploy live",
+                );
+                // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
+                window.web3 = new Web3(
+                  new Web3.providers.HttpProvider("http://127.0.0.1:7545"),
+                );
+              }
+            });
+          v.addEventListener('click', () => {
+              getAccount();
+              getBalance();
+            });
+            async function getAccount() {
+              accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+              v.innerHTML = accounts.toString().substring(0, 12) + "...";
+            }
+            async function getChainId() {
+                const chainID = await ethereum.request({ method: 'eth_chainId' });
+                handleChainChanged(chainID);
+            }
+            async function getBalance() {
+              let web3 = new Web3(window.ethereum);
+              let balance = web3.eth.getBalance(accounts.toString());
+              console.log(balance);
+            }
+            function handleAccountsChanged(accountss) {
+              if (accountss.length === 0) {
+                // MetaMask is locked or the user has not connected any accountss
+                console.log('Please connect to MetaMask.');
+                window.alert("Please connect to MetaMask.");
+                v.innerHTML = "Connect to MetaMask";
+              } else if (accountss[0] !== currentAccount) {
+                currentAccount = accountss[0];
+                v.innerHTML = currentAccount.toString().substring(0, 12) + "...";
+              }
+            }
+            function handleChainChanged(_chainId) {
+                if (parseInt(_chainId, 16) !== 56 ) {
+                    window.alert("Change Your Network to Binance Smart Chain!");
+                    buy.innerHTML = "Change Your Network to BSC!";
+                    buy.disabled = true;
+                }else {
+                    buy.innerHTML = "Buy Token Now";
+                    buy.disabled = false;
+                }
+            }
+            buy.onclick = () => {
+                if (document.getElementById("inputFrom").value !== '') {
+                    transferHemp();
+                }else{
+                    window.alert("Enter Correct Value of BNB");
+                }
+            }
+            async function transferHemp() {
+                let amount = document.getElementById("inputFrom").value;
+                amount = amount.toString();
+                let receiver = hemp.address
+                let response;
+                getAccount();
+                const signer = provider.getSigner();
+                let userAddress = await signer.getAddress();
+                const hempContract = new ethers.Contract(hemp.address, hemp.abi, signer);
+                response = `Transferring ${amount} BNB receiver ${receiver.slice(
+                  0,
+                  12
+                )}...`;
+                document.getElementById("err").innerHTML = response;
+                document.getElementById("err").style.display = "block";
+                let overrides = {
+                    // The amount to send with the transaction (i.e. msg.value)
+                    value: ethers.utils.parseEther(amount),
+                };
+                const senderAddress = accounts.toString();
+                let tx = hempContract.buyTokens(senderAddress, overrides);
+                tx.then((result) => {
+                    console.log("tx: ", result);
+                    document.getElementById("err").innerHTML += `Transaction hash: ${result.hash}`;
+                }).catch((error) => {
+                    window.alert(error.message);
+                    console.log("tx: ", error);
+                });
+              }
+    </script>
+</body>
+</html>
